@@ -1,0 +1,86 @@
+* {
+  font-family: "Source Sans 3", sans-serif;
+}
+
+body {
+  background-color: #ecf8ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #ecf8ff;
+}
+
+.container {
+  box-sizing: border-box;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #ffffff;
+  padding: 30px;
+  width: 600px;
+  display: inline-block;
+}
+
+.user-box {
+  /* padding: 20px; */
+  /* background-color: red; */
+  align-items: center;
+  margin-bottom: -15px;
+}
+
+.user {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  /* background-color: rgb(110, 216, 216); */
+}
+
+.user > img {
+  /* border: 2px solid black; */
+  border-radius: 60px;
+  width: 70px;
+  height: 60px;
+  /* background-color: aquamarine; */
+}
+
+.twt-logo {
+  margin-left: 55%;
+}
+
+.username .name {
+  font-weight: bolder;
+  margin-bottom: -15px;
+}
+
+.username .nickname {
+  color: #666666;
+}
+
+.caption-box {
+  /* background-color: aqua; */
+  margin-bottom: -15px;
+}
+
+.caption-box p {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.caption-box span {
+  color: #1da1f2;
+}
+
+.detail-box,
+.like {
+  font-weight: 500;
+  color: #666666;
+  align-items: center;
+  margin-right: 20px;
+  /* background-color: #1da1f2; */
+  display: inline-flex;
+}
+
+.like i {
+  margin-right: 10px;
+}
